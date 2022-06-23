@@ -77,7 +77,10 @@ int main(){
         r++;
     }
 
+    cout<<Green<<"\n\nResultados por tabla:"<<Reset<<endl;
+
     for(int i=0;i<casos;i++){
+        cout<<i+1<<": ";
         if(coord_x[i] == 9 || coord_y[i] == 9){
             cout<<"Error en la tabla"<<endl;
         }
